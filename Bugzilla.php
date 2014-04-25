@@ -80,13 +80,13 @@ function BugzillaIncludeHTML( &$out, &$sk ) {
 
             // Use local jquery ui
             $out->addScriptFile("$wgScriptPath/extensions/Bugzilla/web/jqueryui/1.8.14/jquery-ui.min.js");
-
-            // Add a local jquery css file
-            $out->addStyle("$wgScriptPath/extensions/Bugzilla/web/jqueryui/1.8.14/themes/base/jquery-ui.css");
-
-            // Add a local jquery UI theme css file
-            $out->addStyle("$wgScriptPath/extensions/Bugzilla/web/jqueryui/1.8.14/themes/smoothness/jquery-ui.css");
         }
+
+        // Add a local jquery css file
+        $out->addStyle("$wgScriptPath/extensions/Bugzilla/web/jqueryui/1.8.14/themes/base/jquery-ui.css");
+
+        // Add a local jquery UI theme css file
+        $out->addStyle("$wgScriptPath/extensions/Bugzilla/web/jqueryui/1.8.14/themes/smoothness/jquery-ui.css");
 
         // Add a local script file for the datatable
         $out->addScriptFile("$wgScriptPath/extensions/Bugzilla/web/js/jquery.dataTables.js");
